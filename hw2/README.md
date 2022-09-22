@@ -5,7 +5,7 @@
 - пример ввода запроса в командной строке: ``python main.py "выбирать\n джон"``
 
 ### Как решение работает верхнеуровнево:
-1. Собираю словарь из текстов, полученных в первой домашке, которые лежат в папке preprocessed-data ([preprocessing.py](https://github.com/soimmary/infosearch/blob/main/hw1/preprocessing.py);
+1. Собираю словарь из текстов, полученных в первой домашке, которые лежат в папке preprocessed-data ([preprocessing.py](https://github.com/soimmary/infosearch/blob/main/hw1/preprocessing.py));
 2. Индексирую корпус, на выходе получаю посчитанную матрицу Document-Term
 3. Индексирую запрос, считаю его вектор;
 4. Вычисляю косинусное расстояние от запроса до каждого документа корпуса;
