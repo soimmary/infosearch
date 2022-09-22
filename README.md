@@ -5,7 +5,7 @@
 **Инструкция по запуску:**
 - открыть и запустить файл [main.py](https://github.com/soimmary/infosearch/blob/main/hw2/main.py)
 - для ввода запроса использую [Typer](https://typer.tiangolo.com/#example)
-- пример ввода запроса вкомандной строке: <python main.py "выбирать\n джон">
+- пример ввода запроса вкомандной строке: ``python main.py "выбирать\n джон"``
 
 
 **Как решение работает верхнеуровнево:**
