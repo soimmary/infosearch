@@ -1,4 +1,4 @@
-# HW_1
+# HW1
 ### Инструкция по запуску:
 - открыть и запустить файл [main.py](https://github.com/soimmary/infosearch/blob/main/hw1/main.py)
 
