@@ -38,7 +38,7 @@ def main(query: str, path: str = 'data.jsonl') -> None:
     print('Ранжирую ближайшие документы...')
     nearest_docs = get_closest_document_name(distances, list(original_texts.keys()))
     print('Готово!', end='\n\n\n')
-    for doc in nearest_docs[:10]:
+    for doc in nearest_docs:
         print(original_texts[doc[0]])
 
 
