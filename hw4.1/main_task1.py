@@ -3,7 +3,6 @@ from hw4.query_indexation import get_query_embedding
 from hw4.similarity_calculator import get_closest_document_name
 
 import os
-import time
 import typer
 import numpy as np
 
@@ -42,12 +41,9 @@ def main(query: str, path: str = '/Users/mariabocharova/PycharmProjects/infosear
     query_embedding = get_query_embedding(query, model, tokenizer, device)
     # Calculate distances between the corpus matrix and the query
     nearest_docs = get_closest_document_name(corpus, query_embedding, corpus_embeddings)
-    for doc in nearest_docs[:10]:
+    for doc in nearest_docs:
         print(doc)
 
 
 if __name__ == '__main__':
-    start_time = time.time()
-    # typer.run(main)
-    main('любовь моя любимая')
-    print("\nRuntime:", (time.time() - start_time))
+    typer.run(main)
