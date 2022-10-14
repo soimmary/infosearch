@@ -26,7 +26,7 @@ from transformers import AutoTokenizer, AutoModel
 '''
 
 
-def main(query: str, path: str = '/Users/mariabocharova/PycharmProjects/infosearch/hw3/data.jsonl') -> None:
+def main(query: str, path: str = 'data.jsonl') -> None:
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     tokenizer = AutoTokenizer.from_pretrained("sberbank-ai/sbert_large_nlu_ru")
     model = AutoModel.from_pretrained("sberbank-ai/sbert_large_nlu_ru").to(device)
