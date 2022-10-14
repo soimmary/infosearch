@@ -29,7 +29,7 @@ def get_corpus_and_questions(path: str) -> list:
     return corpus, questions_and_answers
 
 
-def main(path: str = '../input/thousands-of-questions-about-love/data.jsonl', n: int = 5) -> None:
+def main(path: str = 'data.jsonl', n: int = 5) -> None:
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     tokenizer = AutoTokenizer.from_pretrained("sberbank-ai/sbert_large_nlu_ru")
     model = AutoModel.from_pretrained("sberbank-ai/sbert_large_nlu_ru").to(device)
