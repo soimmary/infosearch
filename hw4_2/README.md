@@ -12,4 +12,5 @@
 7. В результате вывожу метрику (accuracy).
 
 **Accuracy BM25:** 0.02
+
 **Accuracy BERT:**
