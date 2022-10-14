@@ -1,6 +1,6 @@
-from hw4.corpus_indexation import get_texts, get_corpus_embeddings
-from hw4.query_indexation import get_query_embedding
-from hw4.similarity_calculator import get_closest_document_name
+from hw4_1.corpus_indexation import get_texts, get_corpus_embeddings
+from hw4_1.query_indexation import get_query_embedding
+from hw4_1.similarity_calculator import get_closest_document_name
 
 import os
 import typer
