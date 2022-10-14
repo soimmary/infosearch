@@ -1,4 +1,4 @@
-from hw4.corpus_indexation import tokenize, mean_pooling
+from hw4_1.corpus_indexation import tokenize, mean_pooling
 
 from transformers import AutoTokenizer, AutoModel
 import torch
