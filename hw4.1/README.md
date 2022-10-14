@@ -1,6 +1,6 @@
 # HW4.1 
 ### Инструкция по запуску:
-- открыть и запустить файл [main.py](https://github.com/soimmary/infosearch/blob/main/hw3/main.py)
+- открыть и запустить файл [main_task1.py](https://github.com/soimmary/infosearch/blob/main/hw4.1/main_task1.py)
 - для ввода запроса использую [Typer](https://typer.tiangolo.com/#example)
 - пример ввода запроса в командной строке: ``python main.py "что такое любовь"``
 
